@@ -80,7 +80,7 @@ export default function Weather() {
 
       <p className="footer">
         <a
-          href="https://github.com/Ila-bura/ila_shecodes_project"
+          href="https://github.com/Ila-bura/react-weather-app"
           className="github me-1"
         >
           Open-source code {""}
