@@ -1,24 +1,24 @@
-.Weather .date_form {
-  margin: 20px;
-  margin-left: 60px;
+.Weather {
+  padding: 16px;
+  margin: 30px;
 }
-
 .Weather h1 {
   text-align: left;
   color: #008699;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 45px;
+  margin: 20px 0 0 0;
 }
-
 .Weather .search_form {
   text-align: right;
+  margin-bottom: 20px;
 }
 
 .Weather .city-form {
-  text-align: right;
+  text-align: left;
   color: #008699;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   transition: all 250ms ease-in-out;
   border: 1px solid #008699;
@@ -28,7 +28,7 @@
   text-align: right;
   color: #008699;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   transition: all 250ms ease-in-out;
   border: 1px solid #008699;
@@ -42,58 +42,48 @@
   color: #008699;
   background: #e2f0f9;
 }
-
-.Weather h2 {
-  color: #008093;
-  font-weight: bolder;
-  font-size: 70px;
-  margin-right: 70px;
-  margin-left: 60px;
-  margin-top: 20px;
+.Weather ul {
+  margin: 0;
+  padding: 0;
 }
 
-.Weather .current_weather {
-  line-height: 50px;
-  margin-right: 70px;
-  margin-left: 60px;
-  margin-top: 20px;
-  margin-bottom: 40px;
+.Weather li {
   text-transform: capitalize;
   text-align: left;
   color: #008699;
-  font-size: 30px;
-}
-
-.Weather .temp_unit strong {
-  color: #008699;
-  font-size: 50px;
-  font-weight: normal;
-}
-
-.Weather .temp_unit .units {
-  position: relative;
-  font-size: 15px;
-  top: -26px;
-}
-
-.Weather .temp_unit {
-  display: block;
-  margin: 0 auto;
-  text-align: left;
-  color: #008699;
-  font-size: 28px;
-}
-
-.Weather .humidity_wind {
+  font-size: 25px;
   list-style: none;
 }
 
+.Weather img {
+  height: 64px;
+  display: inline-block;
+  margin-right: 10px;
+  width: 64px;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 64px;
+  color: #008699;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -32px;
+  margin-left: 5px;
+}
+
 .Weather .footer {
-  margin-bottom: 20px;
-  margin-top: 50px;
+  margin-top: 90px;
   font-size: medium;
   font-family: "Antic Slab", serif;
   text-align: center;
+  margin-bottom: -40px;
 }
 
 .Weather .footer .signature {
