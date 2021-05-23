@@ -23,24 +23,46 @@ export default function Weather() {
             </form>
         
       
-     
+     <div className="row">
+        <div className="col-2">
       <h1>Vienna</h1>
+      </div>
+<div className="col-10">
+<img 
+          src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" 
+          alt="Mostly cloudy"
+           
+          />
+
+
+</div>
+</div>
+
+
+
       <ul>
         <li>Wednesady 07:00</li>
         <li>Mostly Cloudy</li>
       </ul>
+
+
+
       <div className="row">
         <div className="col-6">
-      <div className="clearfix">
-          <img 
-          src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" 
-          alt="Mostly cloudy"
-          className="float-left" 
-          />
-     <div className="float-left">
-          <span className="temperature">6</span>
-          <span className="unit">°C</span>
-          </div>
+      <div >
+          
+           
+          
+
+<span className="temp_unit">
+            <strong>
+              <span className="temperature">12 </span>
+            </strong>
+            <span className="units">
+              <a href="/">°C</a> | <a href="/">°F</a>
+            </span>
+          </span>
+
           </div>
              </div>
         <div className="col-6">

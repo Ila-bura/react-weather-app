@@ -69,13 +69,16 @@
   color: #008699;
 }
 
-.Weather .unit {
-  font-size: 16px;
-  font-weight: 400;
+.Weather .temp_unit strong {
+  color: #008699;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.Weather .temp_unit .units {
   position: relative;
-  line-height: 1;
-  top: -32px;
-  margin-left: 5px;
+  font-size: 15px;
+  top: -26px;
 }
 
 .Weather .footer {
