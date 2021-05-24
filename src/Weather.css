@@ -48,7 +48,6 @@
 }
 
 .Weather li {
-  text-transform: capitalize;
   text-align: left;
   color: #008699;
   font-size: 25px;
@@ -56,10 +55,11 @@
 }
 
 .Weather img {
-  height: 64px;
+  height: 80px;
   display: inline-block;
-  margin-right: 10px;
-  width: 64px;
+  margin-right: 80px;
+  margin-left: -20px;
+  width: 80px;
 }
 
 .Weather .temperature {
@@ -79,6 +79,8 @@
   position: relative;
   font-size: 15px;
   top: -26px;
+  margin-left: -5px;
+  text-decoration: none;
 }
 
 .Weather .footer {
