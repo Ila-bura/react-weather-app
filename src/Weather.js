@@ -43,15 +43,17 @@ return (
         
       
      <div className="row">
-        <div className="col-2">
-      <h1>{weatherData.city}</h1>
-      </div>
-<div className="col-10">
-<img 
+        <div className="col-1">
+      <img 
           src={weatherData.iconUrl} 
           alt={weatherData.description}
            
           />
+      </div>
+
+<div className="col-11">
+  <h1>{weatherData.city}</h1>
+
 
 
 </div>
