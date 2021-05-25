@@ -23,3 +23,20 @@
 body {
   background-image: url("https://i.ebayimg.com/images/g/C-0AAOSwPhNfhbKT/s-l1600.jpg");
 }
+
+.App .footer {
+  margin-top: 90px;
+  font-size: medium;
+  font-family: "Antic Slab", serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.App .footer .signature {
+  text-decoration: none;
+  color: #008093;
+}
+
+.App .footer .signature:hover {
+  cursor: pointer;
+}

@@ -82,20 +82,3 @@
   margin-left: -5px;
   text-decoration: none;
 }
-
-.Weather .footer {
-  margin-top: 90px;
-  font-size: medium;
-  font-family: "Antic Slab", serif;
-  text-align: center;
-  margin-bottom: -40px;
-}
-
-.Weather .footer .signature {
-  text-decoration: none;
-  color: #008093;
-}
-
-.Weather .footer .signature:hover {
-  cursor: pointer;
-}
