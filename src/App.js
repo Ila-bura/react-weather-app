@@ -23,10 +23,10 @@ export default function App() {
           className="github me-1" target="_blank" rel="noreferrer"
         >
           open-sourced on GitHub
-        </a>{""}
+        </a>{""}{""}
         and
         <a
-          href="https://www.linkedin.com/in/ilaria-burani-89216132/"
+          href="https://optimistic-lumiere-472218.netlify.app/"
           className="signature ms-1" target="_blank" rel="noreferrer"
         >
         hosted on Netlify
