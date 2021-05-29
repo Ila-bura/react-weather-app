@@ -10,18 +10,26 @@ export default function App() {
           <Weather defaultCity="Vienna"/>
 
 <p className="footer">
+  Project coded by{""}
+<a
+          href="https://www.linkedin.com/in/ilaria-burani-89216132/"
+          className="signature ms-1" target="_blank" rel="noreferrer"
+        >
+          Ilaria Burani {""}
+        </a>{""}
+         - {""}
         <a
           href="https://github.com/Ila-bura/react-weather-app" 
           className="github me-1" target="_blank" rel="noreferrer"
         >
-          Open-source code {""}
-        </a>
-        by {""}
+          open-sourced on GitHub
+        </a>{""}
+        and
         <a
           href="https://www.linkedin.com/in/ilaria-burani-89216132/"
           className="signature ms-1" target="_blank" rel="noreferrer"
         >
-          Ilaria Burani
+        hosted on Netlify
         </a>
       </p>
 
