@@ -26,8 +26,8 @@ export default function App() {
         </a>{""}{""}
         and
         <a
-          href="https://optimistic-lumiere-472218.netlify.app/"
-          className="signature ms-1" target="_blank" rel="noreferrer"
+          href="https://ila-react-weather-app.netlify.app/"
+          className="github ms-1" target="_blank" rel="noreferrer"
         >
         hosted on Netlify
         </a>
