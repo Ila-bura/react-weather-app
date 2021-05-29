@@ -54,12 +54,9 @@
   list-style: none;
 }
 
-.Weather img {
-  height: 80px;
+.Weather canvas {
   display: inline-block;
   margin-right: 80px;
-  margin-left: -20px;
-  width: 80px;
 }
 
 .Weather .temperature {
