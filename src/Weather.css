@@ -60,8 +60,7 @@
 }
 
 .Weather .temperature {
-  font-weight: bold;
-  font-size: 50px;
+  font-size: 75px;
   line-height: 64px;
   color: #008699;
 }
@@ -69,8 +68,8 @@
 .Weather .temp_unit .units {
   position: relative;
   font-size: 15px;
-  top: -26px;
+  top: -40px;
   margin-left: 5px;
-  font-size: 18px;
-  color: #008699;
+  font-size: 20px;
+  color: black;
 }
