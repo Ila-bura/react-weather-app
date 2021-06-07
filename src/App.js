@@ -10,7 +10,7 @@ export default function App() {
           <Weather defaultCity="Vienna"/>
 
 <p className="footer">
-  Coded by{""}
+  Project coded by{""}
 <a
           href="https://www.linkedin.com/in/ilaria-burani-89216132/"
           className="signature ms-1" target="_blank" rel="noreferrer"
